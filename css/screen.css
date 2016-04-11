@@ -1,0 +1,49 @@
+/* Base styles */
+
+body{
+  font-family: "Arial";
+  color: #444;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+p, li, h1, h2, h3, h4, h5, h6{
+  margin-top: 24px;
+  line-height: 24px;
+}
+
+li+li{
+  margin-top: 0px;
+}
+
+.container{
+  width: 728px;
+  margin: 0px auto;
+}
+
+/* Block styles */
+
+header, section, footer{
+  margin: 24px 0;
+}
+
+#movieimg{
+border: 0px solid #000000;
+  float: left;
+  width: 40%;
+  background: none;
+ 
+}
+#moviedescr {
+border: 0px solid #000000;
+  float: right;
+  width: 60%;
+  background: none;
+
+}
+
+div.wrap {
+    border: 0px solid #000000;
+    overflow: auto;
+}
+
